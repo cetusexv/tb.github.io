@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  background:#000;
+  color:#fff;
+  font-family:Arial;
+}
+
+.section{
+  padding:15px;
+}
+
+.section h2{
+  font-size:18px;
+  margin:15px 0 10px;
+  border-bottom:1px solid #222;
+  padding-bottom:5px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:20px;
+  text-align:center;
+}
+
+.item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.icon{
+  width:26px;
+  height:26px;
+  opacity:0.95;
+}
+
+.item p{
+  font-size:11px;
+  margin-top:6px;
+  color:#ccc;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Shortcuts -->
+<div class="section">
+<h2>Shortcuts</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/globe--v1.png" class="icon">
+<p>Select language</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/megaphone.png" class="icon">
+<p>Announcement</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/windows/64/ffffff/speech-bubble-with-dots.png" class="icon">
+<p>Messages</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/headphones.png" class="icon">
+<p>Online Service</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/sent.png" class="icon">
+<p>Service Telegram</p>
+</div>
+
+</div>
+</div>
+
+<!-- Account -->
+<div class="section">
+<h2>Account</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/new-post.png" class="icon">
+<p>Bind email</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/shield.png" class="icon">
+<p>Authentication</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/wallet.png" class="icon">
+<p>Convert total assets</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/lock--v1.png" class="icon">
+<p>2FA</p>
+</div>
+
+</div>
+</div>
+
+<!-- Trade -->
+<div class="section">
+<h2>Trade</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/flash-on.png" class="icon">
+<p>Convert</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/combo-chart.png" class="icon">
+<p>Spot</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/money.png" class="icon">
+<p>USDT-M</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/settings.png" class="icon">
+<p>Options</p>
+</div>
+
+</div>
+</div>
+
+<!-- Grow -->
+<div class="section">
+<h2>Grow</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/bitcoin.png" class="icon">
+<p>Locked mining</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/credit-card.png" class="icon">
+<p>Loan</p>
+</div>
+
+</div>
+</div>
+
+<!-- Rewards -->
+<div class="section">
+<h2>Rewards and perks</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/star--v1.png" class="icon">
+<p>Affiliate</p>
+</div>
+
+</div>
+</div>
+
+<!-- Help -->
+<div class="section">
+<h2>Help</h2>
+<div class="grid">
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/school.png" class="icon">
+<p>School</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/learning.png" class="icon">
+<p>Learn</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/conference.png" class="icon">
+<p>Community</p>
+</div>
+
+<div class="item">
+<img src="https://img.icons8.com/ios/50/ffffff/headset.png" class="icon">
+<p>Support</p>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
