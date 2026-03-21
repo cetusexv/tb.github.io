@@ -61,18 +61,13 @@ body{
 <p>Select language</p>
 </div>
 
-<!-- ✅ Announcement (FINAL UPDATED ICON) -->
+<!-- ✅ Announcement UPDATED -->
 <div class="item">
 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  
-  <!-- Speaker -->
   <polygon points="11 5 6 9 3 9 3 15 6 15 11 19 11 5"></polygon>
-  
-  <!-- Sound waves -->
   <line x1="15" y1="9" x2="18" y2="9"></line>
   <line x1="15" y1="12" x2="20" y2="12"></line>
   <line x1="15" y1="15" x2="18" y2="15"></line>
-
 </svg>
 <p>Announcement</p>
 </div>
@@ -105,8 +100,12 @@ body{
 <p>Bind email</p>
 </div>
 
+<!-- ✅ Authentication UPDATED -->
 <div class="item">
-<img src="https://img.icons8.com/ios/50/ffffff/shield.png" class="icon">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 2L4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4z"></path>
+  <path d="M9 12l2 2 4-4"></path>
+</svg>
 <p>Authentication</p>
 </div>
 
