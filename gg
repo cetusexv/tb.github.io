@@ -211,14 +211,11 @@ style="opacity:0.45; filter:brightness(0.7);">
 <h2>Rewards and perks</h2>
 <div class="grid">
 
-<!-- ✅ FINAL PERFECT MATCH -->
 <div class="item">
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white">
   <rect x="3.5" y="3.5" width="17" height="17" rx="2.5"></rect>
   <line x1="9" y1="8" x2="15" y2="8"></line>
   <polygon points="12 10.5 13.5 13.5 17 13.5 14 15.5 15 18.5 12 16.8 9 18.5 10 15.5 7 13.5 10.5 13.5"></polygon>
-
 </svg>
 <p>Affiliate</p>
 </div>
@@ -231,8 +228,23 @@ style="opacity:0.45; filter:brightness(0.7);">
 <h2>Help</h2>
 <div class="grid">
 
+<!-- ✅ FINAL SCHOOL ICON -->
 <div class="item">
-<img src="https://img.icons8.com/ios/50/ffffff/school.png" class="icon">
+<svg class="icon" viewBox="0 0 24 24" fill="none"
+stroke="rgba(255,255,255,0.75)" 
+stroke-width="2.2"
+stroke-linecap="round"
+stroke-linejoin="round"
+style="width:34px;height:34px;">
+
+  <path d="M6.5 10c0-3 2.5-5 5.5-5s5.5 2 5.5 5"></path>
+  <line x1="6.5" y1="10" x2="17.5" y2="10"></line>
+  <line x1="8.5" y1="10" x2="10.8" y2="13"></line>
+  <line x1="15.5" y1="10" x2="13.2" y2="13"></line>
+  <line x1="10.8" y1="13" x2="13.2" y2="13"></line>
+  <rect x="10.5" y="13" width="3" height="4.5"></rect>
+
+</svg>
 <p>School</p>
 </div>
 
