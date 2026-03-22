@@ -63,7 +63,7 @@ body{
 </div>
 
 <div class="item">
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white">
   <polygon points="11 5 6 9 3 9 3 15 6 15 11 19 11 5"></polygon>
   <line x1="15" y1="9" x2="18" y2="9"></line>
   <line x1="15" y1="12" x2="20" y2="12"></line>
@@ -101,7 +101,7 @@ body{
 </div>
 
 <div class="item">
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white">
   <path d="M12 2L4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4z"></path>
   <path d="M9 12l2 2 4-4"></path>
 </svg>
@@ -109,7 +109,7 @@ body{
 </div>
 
 <div class="item">
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.8">
   <path d="M6 7h8c1.5 0 2 1 2 2v1h2c1.2 0 2 1 2 2s-.8 2-2 2h-2v1c0 1-1 2-2 2H8c-1.5 0-2-1-2-2V9c0-1 0-2 0-2z"></path>
   <path d="M8 9h6"></path>
 </svg>
@@ -194,9 +194,8 @@ style="opacity:0.45; filter:brightness(0.7);">
 <p>Locked mining</p>
 </div>
 
-<!-- ✅ ONLY THIS CHANGED -->
 <div class="item">
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white">
   <rect x="4" y="7" width="16" height="10" rx="2"></rect>
   <path d="M4 9h16"></path>
   <line x1="13" y1="12" x2="17" y2="12"></line>
@@ -211,10 +210,19 @@ style="opacity:0.45; filter:brightness(0.7);">
 <div class="section">
 <h2>Rewards and perks</h2>
 <div class="grid">
+
+<!-- ✅ FINAL PERFECT MATCH -->
 <div class="item">
-<img src="https://img.icons8.com/ios/50/ffffff/star--v1.png" class="icon">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+
+  <rect x="3.5" y="3.5" width="17" height="17" rx="2.5"></rect>
+  <line x1="9" y1="8" x2="15" y2="8"></line>
+  <polygon points="12 10.5 13.5 13.5 17 13.5 14 15.5 15 18.5 12 16.8 9 18.5 10 15.5 7 13.5 10.5 13.5"></polygon>
+
+</svg>
 <p>Affiliate</p>
 </div>
+
 </div>
 </div>
 
@@ -222,22 +230,27 @@ style="opacity:0.45; filter:brightness(0.7);">
 <div class="section">
 <h2>Help</h2>
 <div class="grid">
+
 <div class="item">
 <img src="https://img.icons8.com/ios/50/ffffff/school.png" class="icon">
 <p>School</p>
 </div>
+
 <div class="item">
 <img src="https://img.icons8.com/ios/50/ffffff/learning.png" class="icon">
 <p>Learn</p>
 </div>
+
 <div class="item">
 <img src="https://img.icons8.com/ios/50/ffffff/conference.png" class="icon">
 <p>Community</p>
 </div>
+
 <div class="item">
 <img src="https://img.icons8.com/ios/50/ffffff/headset.png" class="icon">
 <p>Support</p>
 </div>
+
 </div>
 </div>
 
