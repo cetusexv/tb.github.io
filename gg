@@ -36,10 +36,10 @@ body{
 }
 
 .icon{
-  width:26px;
-  height:26px;
+  width:30px;
+  height:30px;
   opacity:0.95;
-  stroke-width:1.6;
+  stroke-width:1.7;
 }
 
 .item p{
@@ -129,12 +129,15 @@ body{
 <h2>Trade</h2>
 <div class="grid">
 
+<!-- ✅ FINAL SOFT CONVERT ICON -->
 <div class="item">
-<img src="https://img.icons8.com/ios/50/ffffff/flash-on.png" class="icon">
+<img src="https://img.icons8.com/ios/50/ffffff/flash-on.png" 
+class="icon"
+style="opacity:0.45; filter:brightness(0.7);">
 <p>Convert</p>
 </div>
 
-<!-- SPOT ICON -->
+<!-- SPOT -->
 <div class="item">
 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
   <ellipse cx="8" cy="6" rx="3" ry="1.5"></ellipse>
@@ -153,10 +156,9 @@ body{
 <p>Spot</p>
 </div>
 
-<!-- ✅ UPDATED USDT-M ICON -->
+<!-- USDT-M -->
 <div class="item">
 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
-
   <ellipse cx="9" cy="7" rx="3" ry="1.5"></ellipse>
   <path d="M6 7v3"></path>
   <path d="M6 10c0 1 6 1 6 0"></path>
@@ -169,13 +171,21 @@ body{
 
   <polyline points="14,4 20,4 20,10"></polyline>
   <polyline points="4,14 4,20 10,20"></polyline>
-
 </svg>
 <p>USDT-M</p>
 </div>
 
+<!-- OPTIONS -->
 <div class="item">
-<img src="https://img.icons8.com/ios/50/ffffff/settings.png" class="icon">
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+
+  <path d="M7 7l2-2h6l2 2"></path>
+  <rect x="6" y="7" width="12" height="12" rx="2"></rect>
+
+  <line x1="10" y1="14" x2="14" y2="10"></line>
+  <polyline points="11.5,10 14,10 14,12.5"></polyline>
+
+</svg>
 <p>Options</p>
 </div>
 
